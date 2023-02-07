@@ -1,4 +1,4 @@
-# summarize-sagemaker
+# summarize-smaker
 Code to summarize scripts on a sagemaker notebook instance
 
 Assuming you have your training data in a csv file where each field is seperated by a "|" .  Similarly the data to summarize is also in a csv file with each field seperated by "|". The difference is that the training data csv file also has an additional filed appended at the end of each row with the target data i.e in this context the summary of the field previous to it. 
